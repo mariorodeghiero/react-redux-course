@@ -4,19 +4,29 @@
 
 <p align="center">
  Course Modern React with Redux by Stephen Grider <a href="https://www.udemy.com/react-redux/">link</a>
- </p>
-
-</div>
-
-<div align="center">
+</p>
 
 [![The MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
 </div>
 
+<div>
+    <ul>
+        <li>Master the fundamental features of React, including JSX, state, and props</li>
+        <li>From square one, understand how to build reusable components</li>
+        <li>Dive into the source code of Redux to understand how it works behind the scenes</li>
+        <li>Test your knowledge and hone your skills with numerous coding exercises</li>
+        <li>Integrate React with advanced browser features, even geolocation API's!</li>
+        <li>Use popular styling libraries to build beautiful apps</li>
+        <li>Master different techniques of deployment so you can show off the apps you build!</li>
+        <li>See different methods of building UI's through composition of components</li>
+    </ul>
+</div>
+
 ## Built With
 
 - [ReactJS](https://reactjs.org) - ReactJS
+- [Redux](https://reactjs.org) - Redux
 
 ## Install
 
