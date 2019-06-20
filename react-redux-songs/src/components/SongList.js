@@ -5,10 +5,17 @@ class SongList extends Component {
     return (
       <div>
         Song List
+        {console.log("Teste props:", this.props)}
       </div>
     )
   }
 }
 
+const mapStateToProps = (state) => {
+  console.log("Teste mapState:", state);
+  return {
+    songs: state.songs
+  };
+}
 
-export default connect()(SongList);
+export default connect(mapStateToProps)(SongList);

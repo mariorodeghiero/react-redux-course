@@ -17,7 +17,15 @@ const selectedSongReducer = (selectedSong = null, action) => {
   return selectedSong;
 }
 
+const myPlayListReducer = () => {
+  return [
+    { title: 'Rock', duratuion: '5:30' },
+    { title: 'Blues', duratuion: '6:10' }
+  ]
+}
+
 export default combineReducers({
   songs: songsReducer,
-  selectedSong: selectedSongReducer
+  selectedSong: selectedSongReducer,
+  myPlayList: myPlayListReducer
 })
