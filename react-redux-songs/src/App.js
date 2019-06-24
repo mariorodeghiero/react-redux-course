@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import SongList from './components/SongList';
+import SongDetail from './components/SongDetail';
 
 class App extends Component {
   render() {
@@ -8,8 +9,11 @@ class App extends Component {
       <div className="ui container grid">
         <div className="ui row">
           <div className="column eight wide">
-              <SongList/>
-            </div>
+            <SongList />
+          </div>
+          <div className="column eight wide">
+            <SongDetail />
+          </div>
         </div>
       </div>
     );
