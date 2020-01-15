@@ -9,7 +9,7 @@ import Header from "./Header";
 
 const App = () => {
   return (
-    <div className="ui container" style={{ backgroundColor: "#333", height: "100vh"}}>
+    <div className="ui container" style={{ backgroundColor: "#c3c3c3", height: "100vh"}}>
       <BrowserRouter>
         <div>
           <Header/>
