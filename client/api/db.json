@@ -1,3 +1,14 @@
 {
-  "streams": []
+  "streams": [
+    {
+      "title": "Front End Developer",
+      "description": "Telecommunications technician",
+      "id": 1
+    },
+    {
+      "title": "Front End Developer",
+      "description": "test",
+      "id": 2
+    }
+  ]
 }
